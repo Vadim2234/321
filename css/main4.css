@@ -1,0 +1,122 @@
+body {
+    font-family: 'Lato', Verdana;
+    font-size: 100%;
+    background: url(https://dima-sychev.ru/wp-content/uploads/6/6/3/663ea83c643e9b5ad393ee385e949895.jpeg) center center no-repeat; background-size: cover; 
+    
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .nav {
+    display: inline-block;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    text-align: center;
+    
+  }
+  .nav > ul > li {
+    display:inline-block; 
+  }
+  .nav > ul > li.active a{
+    
+    background: #d0a5a5;
+    color: #ffffff;
+  }
+  .nav > ul > li > a {
+    display: flex;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 0em 1em;
+    color: rgb(255, 255, 255);
+    
+
+  }
+  .nav > ul > li > a:hover {
+    color: rgb(255, 255, 255);
+    background: #131813;
+    border-radius: 50px;
+    transition: 1s all;
+  }
+  header{
+    border-radius: 50px;
+    padding: 1em 1em; 
+    background-color: rgb(98, 104, 98);
+    width:50%;
+    transition: 0.5s all;
+    
+    
+
+  }
+  header:hover{
+    background-color: rgb(98, 104, 98);
+}
+footer{
+  background-color: rgb(98, 104, 98);
+    text-align: center;
+    margin-top:400px;
+    padding-bottom:1% ;
+    border-radius: 3cap;
+    /* box-shadow: red 0px 0px 10px; */
+}
+
+
+
+* {box-sizing: border-box}
+
+
+.container {
+  padding: 10px;
+}
+
+
+
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: rgb(11, 167, 11);
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.7;
+  border-radius: 50px;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+a {
+  color: rgb(0, 0, 0);
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  width: 50%;
+  padding: 10px 20px;
+}
+
+	a.nubex {
+  background-color: rgb(11, 167, 11);
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.7;
+  border-radius: 50px;
+	}
+	a.nubex:hover {
+  opacity:1;
+	}
+   
